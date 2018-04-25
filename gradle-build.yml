@@ -11,5 +11,5 @@ inputs:
   - name: project
 
 run:
-  path: project/gradlew
-  args: ["build"]
+  path: "/bin/sh"
+  args: ["-c", "git status && ls -l && ./gradlew build"]
