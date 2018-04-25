@@ -12,4 +12,4 @@ inputs:
 
 run:
   path: "/bin/sh"
-  args: ["-c", "ls -l && ./gradlew build"]
+  args: ["-c", "cd project && ls -l && ./gradlew build"]
