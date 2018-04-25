@@ -11,4 +11,5 @@ inputs:
   - name: project
 
 run:
-  path: gradlew
+  path: project/gradlew
+  args: build
